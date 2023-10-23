@@ -20,21 +20,21 @@
         <a href="#productos">PRODUCTOS</a>
         <a href="#contacto">CONTACTO</a>
     </nav>
-    <div class="bloque" style="background-image: url('assets/Fondo_Principal.jpg');">
+    <div id="inicio" class="bloque" style="background-image: url('assets/Fondo_Principal.jpg');">
         <div class="texto_bloque">
             <h2>PRODUCTOS NATURALES</h2>
             <h4>Al alcance de tu mesa.</h4>
         </div>
     </div>
-    <div class="bloque" style="background-image: url('assets/Fondo_Descripcion.jpg');">
+    <div id="nosotros" class="bloque" style="background-image: url('assets/Fondo_Descripcion.jpg');">
         <div class="texto_bloque">
-            <h2>Secccion de Presentacion</h2>
+            <h2>Conocenos</h2>
             <p>Somos un emprendimiento familiar, que nos centramos en la buena alimentacion como prevencion de
                 enfermedades y como la mejor forma de promover una buena salud. Por ello te presentamos las mejores
                 opciones en productos naturales.</p>
         </div>
     </div>
-    <div class="contenedor-productos">
+    <div id="productos" class="contenedor-productos">
         <div class="card-group">
             <div class="card">
                 <img src="assets/Zumo_Uva.jpg" class="card-img-top" alt="Arandanos">
@@ -74,7 +74,7 @@
             </div>
         </div>
     </div>
-    <div class="bloque" style="padding: 2%;">
+    <div id="contacto" class="bloque" style="padding: 2%;">
         <div class="texto_bloque">
             <h2>Contactanos</h2>
             <p>Dejanos tu mensaje y nos pondremos en contacto.</p>
@@ -82,15 +82,16 @@
         <form action="#" target="" method="get" name="formDatosPersonales">
 
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre completo"/>
-        
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" />
+
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="email@email.com" required />
-        
+
             <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" for="mensaje" placeholder="Deja tu mensaje brevemente en menos de 300 carácteres" maxlength="300"></textarea>
-            
-            <input type="submit" name="enviar" value="Enviar datos"/>
+            <textarea name="mensaje" for="mensaje" placeholder="Deja tu mensaje brevemente en menos de 300 carácteres"
+                maxlength="300"></textarea>
+
+            <input type="submit" name="enviar" value="Enviar datos" />
         </form>
     </div>
     <footer>Productos Naturales. Derechos reservados 2023 ©.</footer>
