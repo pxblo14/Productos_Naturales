@@ -119,3 +119,19 @@ footer {
     padding: 2%;
     text-align: center;
 }
+
+@media (max-width: 450px){
+    .contenedor-productos {
+        height: 1500px;
+    }
+    .bloque {
+        padding: 20%;
+        background-position: 40%;
+    }
+    .texto_bloque {
+        padding: 5%;
+    }
+    .texto_bloque p{
+        text-align: justify;
+    }
+}
