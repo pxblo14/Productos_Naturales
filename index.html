@@ -77,24 +77,25 @@
     <div id="contacto" class="bloque" style="padding: 2%;">
         <div class="texto_bloque">
             <h2>Contactanos</h2>
-            <p>Dejanos tu mensaje y nos pondremos en contacto.</p>
+            <p id="mensajeFormulario">Dejanos tu mensaje y nos pondremos en contacto.</p>
         </div>
-        <form action="#" target="" method="get" name="formDatosPersonales">
+        <form id="formulario" action="#" target="" method="get" name="formDatosPersonales">
 
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" />
 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="email@email.com" required />
+            <input type="email" name="email" id="email" placeholder="email@dominio.com" required />
 
             <label for="mensaje">Mensaje</label>
             <textarea name="mensaje" for="mensaje" placeholder="Deja tu mensaje brevemente en menos de 300 carácteres"
                 maxlength="300"></textarea>
 
-            <input type="submit" name="enviar" value="Enviar datos" />
+            <input onclick="enviarFormulario();" type="submit" name="enviar" value="Enviar datos" />
         </form>
     </div>
     <footer>Productos Naturales. Derechos reservados 2023 ©.</footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

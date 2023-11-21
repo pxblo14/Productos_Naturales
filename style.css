@@ -120,6 +120,7 @@ footer {
     text-align: center;
 }
 
+/*Responsividad*/
 @media (max-width: 450px){
     .contenedor-productos {
         height: 1500px;
